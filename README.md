@@ -27,6 +27,7 @@ struct ContentView: View {
 
 # LazyHGrid Method
 Specify a single row with the `LazyHGrid`, which will create a horizontal list.
+```
 // MARK: - LazyHGrid Style
 let row = GridItem(.fixed(50), spacing: 5, alignment: .center)
 ScrollView(.horizontal) {
@@ -36,4 +37,6 @@ ScrollView(.horizontal) {
         }
     }
 }
+```
+![Picture of scrolling horizontal array](img/horizontalArray.jpeg)
 

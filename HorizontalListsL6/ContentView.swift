@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var items = ["apple", "orange", "potato", "tomato"]
+    var items = ["apple", "orange", "potato", "tomato", "apple", "orange", "potato", "tomato", "apple", "orange", "potato", "tomato", "apple", "orange", "potato", "tomato", "apple", "orange", "potato", "tomato"]
     
     var body: some View {
         
@@ -25,7 +25,7 @@ struct ContentView: View {
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .always))
          */
-        
+       
         // MARK: - LazyHGrid Style
         let row = GridItem(.fixed(50), spacing: 5, alignment: .center)
         ScrollView(.horizontal) {

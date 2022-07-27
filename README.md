@@ -23,7 +23,7 @@ struct ContentView: View {
 }
 ```
 
-![Screenshot of the TabView list](img\tabViewList.jpeg)
+![Screenshot of the TabView list](img/tabViewList.jpeg)
 
 # LazyHGrid Method
 Specify a single row with the `LazyHGrid`, which will create a horizontal list.
